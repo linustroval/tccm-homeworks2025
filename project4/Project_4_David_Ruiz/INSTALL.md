@@ -8,12 +8,17 @@
 
 To compile the different exercises, navigate to the main directory and run the following commands:
 
-### Exercise 3.2 (Overlap Norms)
+### Exercise 3.1: Basis Function reader
+```bash
+gfortran src/basis_module.f90 src/main_3_1.f90 -o ex3_1
+./ex3_1
+
+### Exercise 3.2: Overlap Norms
 ```bash
 gfortran src/basis_module.f90 src/math_module.f90 src/main_3_2.f90 -o ex3_2
 ./ex3_2
 
-#### Exercise 3.3 (MacMurchie-DavidSon Diatomic Overlap)
+### Exercise 3.3: MacMurchie-DavidSon Diatomic Overlap
 ```bash
 gfortran src/basis_module.f90 src/mmd_module.f90 src/main_3_3.f90 -o ex3_3
 ./ex3_3
